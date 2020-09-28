@@ -1,6 +1,6 @@
 #sub functions
 def Convert(lst):
-    res_dct = {list[i]: list[i + 1] for i in range(0, len(list), 2)}
+    res_dct = {lst[i]: lst[i + 1] for i in range(0, len(lst), 2)}
     return res_dct
 
 def calculation(array,n,k,l): 
